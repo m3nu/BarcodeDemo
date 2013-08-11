@@ -59,6 +59,8 @@ var app = {
                 "Format: " + result.format + "\n" + 
                 "Cancelled: " + result.cancelled);  
 
+window.open(result.text, '_self', 'location=yes');
+
                console.log("Scanner result: \n" +
                     "text: " + result.text + "\n" +
                     "format: " + result.format + "\n" +
